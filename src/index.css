@@ -271,4 +271,13 @@ body {
   align-items: center;
 }
 
+.jc-c {
+  justify-content: center !important;
+}
+.jc-sb {
+  justify-content: space-between !important;
+}
+
+
+
 

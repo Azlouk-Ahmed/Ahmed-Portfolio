@@ -20,6 +20,7 @@ import Experience3 from './components/experiences/Experience3.jsx';
 import Goals from './components/goal/Goals.jsx';
 import Skills2 from './components/skills/Skills2.jsx';
 import Skills3 from './components/skills/Skills3.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 function App() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -83,7 +84,10 @@ function App() {
         <Skills2 isVisible={slideIndex === 11}/>
       </SwiperSlide>
       <SwiperSlide>
-        <Skills3 />
+        <Skills3 isVisible={slideIndex === 12}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Contact isVisible={slideIndex === 12}/>
       </SwiperSlide>
     </Swiper>
   );
