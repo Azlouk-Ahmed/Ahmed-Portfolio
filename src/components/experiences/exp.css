@@ -1,0 +1,50 @@
+.experiencecontainer {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.exp {
+    position: relative;
+}
+
+.dashedline {
+    position: absolute;
+    top: 5rem;
+    height: 67%;
+    width: 2px;
+    background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: right;
+    background-size: 2px 30px;
+    background-repeat: repeat-y;
+    left: 48%;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dot {
+    border-radius: 50%;
+    background: black;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    left: 47%;
+    z-index: 5;
+}
+
+.exp-content {
+    
+    width: 50%;
+}
+
+.date {
+    width: 50%;
+}
+
+.imglink {
+    width: 11rem;
+    height: 6rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}

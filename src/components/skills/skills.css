@@ -1,0 +1,215 @@
+.skills--heading {
+    gap: 6rem;
+}
+.MuiCircularProgress-progress {
+    stroke: red !important;
+}
+
+.radialBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+.CircularProgressbar-path {
+    stroke: var(--cyan) !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 4px 6px var(--cyan));
+}
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #3e9bc7 !important;
+    font-weight: 900;
+}
+.radialBar2 .CircularProgressbar-path {
+    stroke: var(--purple) !important;
+    filter: drop-shadow(2px 4px 6px var(--purple));
+}
+.purple .CircularProgressbar-text {
+    fill:var(--purple) !important;
+    font-weight: 900;
+    
+}
+.yellow .CircularProgressbar-text {
+    fill:#f58c00 !important;
+    font-weight: 900;
+    
+}
+.orangebox .CircularProgressbar-text {
+    fill:var(--primary) !important;
+    font-weight: 900;
+    
+}
+.radialBar3 .CircularProgressbar-path {
+    stroke: var(--primary) !important;
+    filter: drop-shadow(2px 4px 6px var(--primary));
+}
+.radialBar4 .CircularProgressbar-path {
+    stroke: var(--purple) !important;
+    filter: drop-shadow(2px 4px 6px var(--purple));
+}
+.radialBar5 .CircularProgressbar-path {
+    stroke: var(--purple) !important;
+    filter: drop-shadow(2px 4px 6px var(--purple));
+}
+.radialBar6 .CircularProgressbar-path {
+    position: relative;
+    stroke: #e7a43b !important;
+    filter: drop-shadow(2px 4px 6px #e7a43b);
+}
+.softskillbox {
+    overflow: hidden;
+    background-color: #beddff;
+    padding: 1rem;
+    z-index: 2;
+    border-radius: 2rem;
+    position: relative;
+}
+.softskillbox > img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    width: 574%;
+    z-index: -1;
+}
+.softskillbox p{
+    font-size: 14px !important;
+    letter-spacing: 2px;
+}
+
+
+.CircularProgressbar {
+    width: 5rem !important;
+    overflow: visible;
+  }
+.arrowheader {
+    width: 15vh;
+}
+.arrowbody {
+    width: 2vh;
+    height: 85vh;
+    
+}
+.arrowfooter{
+    width: 56%;
+
+}
+
+.skills-heading .skills--heading .paragraph p > img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.g-header {
+    gap: 6vh !important;
+}
+
+.p0 {
+    position: unset !important;
+}
+
+.skillsbox {
+    width: 100%;
+}
+
+.arrowf {
+    height: 50vh;
+}
+
+.pls {
+    padding-left: 3.2%;
+}
+
+.ai-s {
+    align-items: flex-start !important;
+}
+
+.skills-rate-dot-emty {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+}
+.skills-rate-dot-filled {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5px;
+    background-color: var(--primary);
+}
+
+.skillsbox p {
+    font-size: 14px !important;
+}
+
+.mt-1 {
+    margin-top: 1rem !important;
+}
+
+.grid-wrapper {
+    display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+
+.wide {
+	grid-column: span 2;
+}
+.techskillscont .wide {
+	grid-column: span 2 !important;
+}
+.tall {
+	grid-row: span 2;
+}
+.grid-wrapper .tall >.df, .grid-wrapper .big >.df{
+	flex-direction: column;
+    align-items: flex-start;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.orangebox {
+    background-color: #f5dbcf;
+}
+.cyan {
+    background-color: #b9f2ff;
+}
+.purple {
+    background-color: #c265ff69;
+}
+
+.yellow {
+    background-color: #f5d9ad;
+}
+
+.techskillscont {
+    display: grid;
+	grid-gap: 10px;
+    width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-auto-rows: auto;
+	grid-auto-flow: dense;
+}
+
+.techskillsbox {
+    border: 2px solid black;
+}
+
+.categ {
+    border-bottom: 2px solid black;
+    padding: 1rem;
+    font-weight: 800;
+} 
+
+.skillcontent {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,218 @@
+.testi {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.testimonialscontainer {
+    background-color: red;
+    height: 100%;
+}
+
+.cen {
+    margin: auto 0;
+    background-color: antiquewhite;
+    margin-top: 10rem;
+}
+
+.testicontainer {
+    justify-content: space-evenly;
+}
+.testicontainer .gifimg {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.curvedline {
+    --mask:
+      radial-gradient(132.06px at 50% calc(100% + 80px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 200px) calc(50% - 54px + .5px)/400px 108px repeat-x,
+      radial-gradient(132.06px at 50% -80px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 54px)/400px 108px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
+
+  .curved-line-container {
+    width: 4000px; /* Four times the typical screen width */
+}
+
+
+
+
+.testibox {
+    position: relative;
+    background-color: #beddff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    
+}
+.testibox .wave  {
+    width: 300%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.3;
+}
+.imgcont{
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    margin: 3px;
+    /* box-sizing: border-box; */
+    border: 2px dashed var(--bg);
+    align-items: center;
+    justify-content: center;
+    z-index: 7;
+}
+.imgcont img{
+    width: calc(100% - 3px);
+    border-radius: 50%;
+    height: calc(100% - 3px);
+    object-fit: cover;
+}
+
+.educ-cont {
+    align-items: normal;
+    justify-content: space-around;
+}
+
+.g-0 {
+    gap: 0 !important;
+}
+
+
+.testibox p{
+
+}
+
+
+/* ===================== */
+.testiswiper .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .testiswiper  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testiswiper  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .testiswiper {
+    height: 17rem !important;
+}
+
+.testiswiper .swiper-slide {
+    background-color: transparent;
+}
+
+
+
+.testiswiper .swiper-slide-active .imgcont {
+    border: 2px dashed var(--swiper-theme-color);
+    transition: 1s transform;
+    transform: scale(1.5) translateY(-20%);
+}
+
+.testiswiper .swiper-pagination-bullet {
+    background-color: var(--purple);
+    width: 10px;
+    margin-left: 29px !important;
+    height: 10px;
+    
+}
+.testiswiper .swiper-pagination {
+    top: -0px !important;
+    bottom: unset !important;
+}
+
+
+.wavybox1 {
+    position: absolute;
+    overflow: hidden;
+    background-color: #beddff;
+    width: 15%;
+    aspect-ratio: 1;
+    border-radius: 2rem;
+    z-index: 0;
+    top: 60%;
+    transform: translateY(-100%);
+    left: 10%;
+}
+
+.wavybox1>img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    width: 574%;
+
+}
+.wavybox2 {
+    position: absolute;
+    overflow: hidden;
+    background-color: #dd98ff36;
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 2rem;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-100%);
+    /* transform: translateX(-100%); */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.wavybox2>img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    width: 574%;
+
+}
+.wavybox3 {
+    position: absolute;
+    overflow: hidden;
+    background-color: #f5d9ad;
+    width: 15%;
+    aspect-ratio: 1;
+    border-radius: 2rem;
+    z-index: 0;
+    top: 60%;
+    transform: translateY(-100%);
+    right: 10%;
+    
+}
+
+.wavybox3>img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    width: 574%;
+
+}

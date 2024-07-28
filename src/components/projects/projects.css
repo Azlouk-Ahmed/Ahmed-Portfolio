@@ -1,0 +1,69 @@
+.projects img {
+    width: 16rem;
+    height: 10rem;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.projects {
+    transform: rotate(2deg);
+}
+.projectslide {
+    display: flex;
+    gap: 4rem; /* Default gap */
+    transition: gap 1s ease;
+  }
+  
+  .projectslide.show {
+    gap: 1rem;
+  }
+
+  .projectsection .swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+
+  }
+  
+  .projectsection .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectsection .ai-c {
+    align-items: center !important;
+  }
+  
+  .projectsection .swiper-slide img {
+    display: block;
+    width: 62%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .p-c {
+    padding: 1rem;
+  }
+  .p-c .btn{
+    padding: 10px 1rem !important;
+    font-weight: normal;
+    font-size: 10px;
+  }
+  
+  .projectsection .swiper-slide p {
+    font-size: 14px;
+  }
+
+  .projectsection .swiper-pagination  {
+    bottom: -0rem !important;
+  }
+  
+
+  .project {
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }

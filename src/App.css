@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+
+
+.main-swiper {
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+
+.main-swiper .swiper-pagination-bullet:not(.testiswiper .swiper-pagination-bullet) {
+  width: 18px;
+  height: 18px;
+  border: 4px solid var(--purple);
+  background: transparent;
+  transition: 0.5s;
+}
+.main-swiper .swiper-pagination-bullet-active:not(.testiswiper .swiper-pagination-active) {
+  transform: translateX(-50%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.main-swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-no-drag {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-swiper .swiper-slide {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-swiper .swiper-slide img {
 }
 
-.App-link {
-  color: #61dafb;
+
+.contai {
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #f5dbcf;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.wave {
+  position: absolute;
+    top: 0;
+    /* transform: translateY(-50%); */
+    left: 0;
+    /* transform: translateX(-50%); */
+    transform: translate(-49%, -49%);
+    width: 244%;
+    border-radius: 50%;
+    z-index: 0;
 }

@@ -1,0 +1,67 @@
+.education {
+    position: relative;
+}
+
+.dashedlinehoriz {
+    position: absolute;
+    top: 58%;
+    width: 92%;
+    height: 2px;
+    background-image: linear-gradient(to right, black 33%, rgba(255, 255, 255, 0) 0%);
+    background-size: 30px 2px;
+    background-repeat: repeat-x;
+    left: 4%;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.arrow {
+    font-size: 2rem;
+    right: 3rem;
+    top: 54%;
+    position: absolute;
+}
+
+.education {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.educ {
+
+    background-color: var(--light--bg);
+    width: 22rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 3;
+    border: 4px dotted var(--primary);
+    padding: 1rem;
+}
+
+
+.educ p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.educ .imgcont {
+    border: 2px dashed var(--primary) !important;
+
+}
+
+.one {
+    left: -6rem;
+    top: 54%;
+}
+
+.two {
+    left: -48%;
+    top: 54%;
+}
+
+.educ-cont {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}

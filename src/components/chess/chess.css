@@ -1,0 +1,40 @@
+.chessboard {
+    width: 500px;
+}
+
+.chessboard .rc-chessboard .rc-chessboard-square.light {
+    background-color: #694305 !important; /* Light squares color */
+  }
+
+  /* Promotion modal styling */
+.promotion-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #444;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .promotion-modal h3 {
+    margin-bottom: 10px;
+  }
+  
+  .promotion-modal button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .error {
+    background-color: rgb(228, 151, 151);
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 5px 1rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
