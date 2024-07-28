@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 3rem;
+    height: 70%;
+}
+
+.githubimg {
+
+}
+
+.gitcont {
+    width: 37%;
+}
+
+.footercont {
+    position: absolute;
+    background-color: #f5d9ad;
+    bottom: -36%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}

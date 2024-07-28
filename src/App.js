@@ -21,6 +21,7 @@ import Goals from './components/goal/Goals.jsx';
 import Skills2 from './components/skills/Skills2.jsx';
 import Skills3 from './components/skills/Skills3.jsx';
 import Contact from './components/contact/Contact.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 function App() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -88,6 +89,9 @@ function App() {
       </SwiperSlide>
       <SwiperSlide>
         <Contact isVisible={slideIndex === 12}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Footer isVisible={slideIndex === 13}/>
       </SwiperSlide>
     </Swiper>
   );
